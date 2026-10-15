@@ -44,7 +44,7 @@ void write(vector<int> &nums){
         print(nums);
         int c = sortsum(nums);
         cout<<"sum of second smallest number and third largest number is : "<< c<<endl;
-return 0;
+
     }
 
     
