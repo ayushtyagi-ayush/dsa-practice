@@ -42,10 +42,10 @@ int bin_recursive(vector<int>nums,int low,int high,int target){
     
 }
 
-int bin_search(vector<int>nums,int high,int low ,int target){
+int bin_search(vector<int>nums,int low,int high,int target){
     
 
-    while(low>=high){
+    while(low<=high){
        int mid=(low+high)/2;
 
         if(nums[mid]==target)
@@ -57,10 +57,9 @@ int bin_search(vector<int>nums,int high,int low ,int target){
         else{
             low=mid+1;
         }
-        return -1;
-
-
+        
 }
+    return -1;
 }
 
 
